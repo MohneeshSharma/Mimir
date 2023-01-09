@@ -14,6 +14,6 @@ ascii_art_string="""  __  __  _             _
 """
 
 print(ascii_art_string)
-string = input("Enter a string to be encoded: ")
-key = input("Enter a key for the string: ")
-print("\n\nThe encoded string is: "decode(string,key))
+string = input("Enter a string to be decoded: ")
+key = int(input("Enter a key for the string: "))
+print("The decode string is: ", decode(string,key))
